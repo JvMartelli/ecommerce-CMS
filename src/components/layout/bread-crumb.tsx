@@ -1,8 +1,14 @@
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "../ui/breadcrumb..";
+import { 
+    Breadcrumb, 
+    BreadcrumbItem, 
+    BreadcrumbLink, 
+    BreadcrumbList, 
+    BreadcrumbPage,
+    BreadcrumbSeparator 
+} from "../ui/breadcrumb";
 
 type BreadCrumbProps = {
     Title: string
-    path: string
 }
 
 export function BreadCrumb({ Title }: BreadCrumbProps) {

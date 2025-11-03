@@ -1,5 +1,4 @@
 import { DataTable } from "@/components/ui/data-table";
-
 import { useCategories } from "../../hooks/use-categories";
 import { CategoryColumns } from "./category-column";
 

@@ -20,8 +20,7 @@ export function CategoryLayout() {
         <BreadCrumb title="Categorias" />
 
         <div className="flex flex-col gap-4 py-4">
-           
-            <div className="flex flex-row justify-end gap-4 my-4">
+            <div className="flex flex-row justify-end gap-4">
                 <InputGroup className="max-v-96">
         <InputGroupInput placeholder="Search..." />
         <InputGroupAddon>
