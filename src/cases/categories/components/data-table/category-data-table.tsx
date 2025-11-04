@@ -1,6 +1,6 @@
 import { DataTable } from "@/components/ui/data-table";
 import { useCategories } from "../../hooks/use-categories";
-import { CategoryColumns } from "./category-column";
+import { CategoryColumns } from "./category-columns";
 
 export function CategoryDataTable() {
 
