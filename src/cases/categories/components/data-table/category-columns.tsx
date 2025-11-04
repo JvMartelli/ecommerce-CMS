@@ -18,7 +18,7 @@ export const categoryColumns: ColumnDef<CategoryDTO>[] = [
       const category = row.original;
       return (
         <div className="flex justify-end mr-5">
-          <DataTableAction id={category.id} />
+          <DataTableAction itemId={category.Id} />
         </div>
       )
     }

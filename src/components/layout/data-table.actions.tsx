@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 type DataTableActionProps = {
     itemId: string | number;
-    id: string | number;
+    
 }
 
 export function DataTableAction({
