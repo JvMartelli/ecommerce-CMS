@@ -8,10 +8,10 @@ import {
 } from "../ui/breadcrumb";
 
 type BreadCrumbProps = {
-    Title: string
+    title: string
 }
 
-export function BreadCrumb({ Title }: BreadCrumbProps) {
+export function BreadCrumb({ title }: BreadCrumbProps) {
     return (
         <div className="flex flex-col gap-4 py-4">
             <Breadcrumb>
@@ -21,7 +21,7 @@ export function BreadCrumb({ Title }: BreadCrumbProps) {
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
-                        <BreadcrumbPage>{Title}</BreadcrumbPage>
+                        <BreadcrumbPage>{title}</BreadcrumbPage>
                     </BreadcrumbItem>
                 </BreadcrumbList>
             </Breadcrumb>
